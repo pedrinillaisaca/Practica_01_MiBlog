@@ -25,16 +25,180 @@
                 <li><a href="../../index.html">Inicio</a></li>
                 <li><a href="../general/px_acercade.html">Acerca de</a></li>
                 <li><a href="../general/px_uso.html">Uso</a></li>
-                <li><a href="../desbloqueo/px_desbloqueo.html">Desbloqueo</a></li>
+                <li><a href="../desbloqueo/px_desbloqueo.html">Seguridad</a></li>
                 <li><a href="../general/px_prevencion.html">Prevención</a></li>
                 <li><a href="../herramientas/px_herramientas.html">Herramientas</a></li>
             </ul>
         </nav>
     </header>
+    <section>
+        <aside>
+            <h1>Descripción general de la seguridad de iCloud</h1>
+            <p>
+                iCloud se creó con tecnologías que cumplen con los estándares de seguridad de la industria. Además,
+                emplea políticas estrictas para proteger la información y es líder en el sector, ya que integra
+                tecnologías destinadas a la preservación de la privacidad, como la encriptación completa de datos
+            </p>
+        </aside>
+    </section>
 
     <article>
+        <h1>Seguridad de los datos</h1>
+        <p>Para proteger la información, iCloud la encripta cuando está en tránsito y la almacena en un formato
+            encriptado. Además, usa identificadores seguros cuando se lleva a cabo la autenticación. En el caso de
+            algunos datos confidenciales, Apple usa la encriptación completa. Esto significa que solo tú puedes acceder
+            a la información y solo en dispositivos en los que iniciaste sesión en iCloud. Nadie más, ni siquiera Apple,
+            puede acceder a la información protegida con la encriptación completa.<br />
+
+            En algunos casos, es posible que los datos de iCloud se almacenen a través de servidores de proveedores
+            independientes, como Amazon Web Services o la plataforma Google Cloud. Sin embargo, estos proveedores no
+            tienen las claves para desencriptar los datos que almacenas en sus servidores.<br />
+
+            Para poder usar la encriptación completa, es necesario que tu Apple ID tenga activada la autenticación de
+            dos factores. Para preservar la seguridad de los dispositivos y los datos, lo más importante es mantener el
+            software actualizado y usar la autenticación de dos factores.<br />
+
+            A continuación, se incluye información sobre la manera en que se usa iCloud para proteger los datos.</p>
+
+        <section>
+            <table style="width: 100%" border="1">
+                <tr>
+                    <th rowspan="2">Datos</th>
+                    <th colspan="2">Encriptación</th>
+                    <th rowspan="2">Notas</th>
+                </tr>
+
+                <tr>
+                    <th>En tránsito</th>
+                    <th>En el servidor</th>
+                </tr>
+
+                <tr>
+                    <td>Respaldo</td>
+                    <td>Sí</td>
+                    <td> Sí</td>
+                    <td rowspan="14">Una encriptación AES de 128 bits como mínimo.</td>
+                </tr>
+
+                <tr>
+                    <td>Favoritos</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Calendarios</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Contactos</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Buscar a mis amigos</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Buscar mi iPhone</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Salud</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>iCloud Drive</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Mensajes no iCloud</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Notas</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Fotos</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Recordatorios</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Atajos de Siri</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>Notas de Voz</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+
+                <tr>
+                    <td>iCloud.com</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                    <td> Todas las sesiones de iCloud.com están encriptadas con el protocolo TLS 1.2. Todos los datos a
+                        los que se accede a través de iCloud.com están encriptados en el servidor, como se indica en la
+                        tabla.</td>
+                </tr>
+
+                <tr>
+                    <td>Regresar a mi Mac</td>
+                    <td>Sí</td>
+                    <td>N/D</td>
+                    <td>Regresar a mi Mac no almacena datos en iCloud. La encriptación de los datos recuperados de otras
+                        computadoras se realiza a través del protocolo TLS 1.2 mientras estos están en tránsito.</td>
+                </tr>
+
+                <tr>
+                    <td>Correos Electrónicos</td>
+                    <td>Sí</td>
+                    <td>No</td>
+                    <td>El tráfico entre los dispositivos y Mail, de iCloud, está encriptado con el protocolo TLS 1.2. A
+                        fin de respetar la práctica estándar del sector, iCloud no encripta los datos almacenados en los
+                        servidores de correo IMAP. Todos los clientes de correo electrónico de Apple son compatibles con
+                        la encriptación S/MIME opcional.</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <p>
+            <h1 >Autenticación de dos factores</h1>
+            Si usas la <a href="../general/px_prevencion.html#autenticacióndedosfactores"> autenticación de dos factores</a>, solamente tú podrás acceder a tu cuenta en los dispositivos de
+            confianza, como el iPhone, el iPad o la Mac. Cuando quieras iniciar sesión con tu Apple ID en un dispositivo
+            nuevo por primera vez, deberás proporcionar dos datos: la contraseña y el código de verificación de seis
+            dígitos que se muestra automáticamente en los dispositivos de confianza.
+        </p>
 
     </article>
+
+
 
     <footer>
         Pedro Xavier Illaisaca Tenecota &#8226; Universidad Politécnica Salesiana
