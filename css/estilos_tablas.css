@@ -1,0 +1,14 @@
+.tabla{
+    border: 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabla td{
+    border: solid;
+    text-align: center;
+}
+
+.tabla th{
+    border: solid;
+    text-align: center;
+}
