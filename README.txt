@@ -1,4 +1,4 @@
-
+﻿
 El proyecto está organizado por una estructura de carpetas para mejora la administración del mismo usando además rutas relativas en cada referencia de imágenes y archivos css, asi como también en los vínculos de página a página.
 En el archivo index.html de uso la etiqueta <nav> en la que consiste en agregar ahí dentro opciones de navegación dentro de esta etiqueta esta una tabla sin bordes la que contiene etiquetas <a> que contiene las opciones de navegación que se presentan en dicha página, cuenta también con una <section> con su respectivo encabezado <h#>  donde tenemos las etiquetas de manejo de textos como <strong> <cite> la cual aplica negrita y cursiva al texto contenido.
 
@@ -14,7 +14,7 @@ Archivo px_uso.html contiene secciones <section> con encabezados <h> además se 
 
 Archivo px_desbloqueo.html este esta formado por un <article> y una sección <section> donde el articulo contiene una tabla que ocupa el 100% de la pantalla además de eso se uso css para dar forma a los bordes de la misma tabla mediante un parámetro que recibe la tabla como class=”” entre las comillas se invoca al link que esta relacionado con el archivo css.
 
-Archivo px_prevencion.html el archivo está compuesto de secciones <section> y artículos <article> anidados asi como <aside> que pueden tener contenido no tan relevante para el propósito de la página  además este archivo cuenta con listas ordenadas <ol> con sus respectivos ítems <li> el cuan muestra de forma ordenada los ítems en la página con numeración del 1 al número total de ítems añadidos, este archivo cuenta con id´s que vinculan una frase con otro archivo .html mediante una etiqueta <a> .
+Archivo px_prevencion.html el archivo está compuesto de secciones <section> y artículos <article> anidados asi como <aside> que pueden tener contenido no tan relevante para el propósito de la página  además este archivo cuenta con listas ordenadas <ol> con sus respectivos ítems <li> el cuan muestra de forma ordenada los ítems en la página con numeración del 1 al número total de ítems añadidos, este archivo cuenta con id´s que vinculan una frase con otro archivo .html mediante una etiqueta <a> también se adiciono un enlace de video de la plataforma de YouTube con la etiqueta <iframe>.
 
 Archivo px_herramientas.html contiene secciones <section> con sus respectivos encabezados <h> con imágenes centradas mediante <div> con parámetro css para centrar la imagen ya que la etiqueta <center> está obsoleta y el validador de html marca este punto como erróneo, en la sección inicial tenemos una lista desordenada <ul> con ítems <li> donde los ítems contienen hipervínculos a párrafos que están contenidas en partes más hacia debajo de la página con esto ahorramos al usuario de la paina el desplazarse por una página ciertamente amplia.
 Para que los ítems con hipervínculo funcionen se referencio con los párrafos mediante id´s las cuales están alojadas como parámetro dentro de una etiqueta de encabezado <h>
