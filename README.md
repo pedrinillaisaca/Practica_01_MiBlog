@@ -1,4 +1,23 @@
-﻿
+﻿#Práctica01
+
+Practica_01_MiBlog\images\informe
+
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0001.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0002.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0003.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0004.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0005.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0006.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0007.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0008.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0009.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0010.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0011.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0012.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0013.jpg)
+![uno](https://raw.githubusercontent.com/pedrinillaisaca/Practica_01_MiBlog/images/informe/0014.jpg)
+
+
 El proyecto está organizado por una estructura de carpetas para mejora la administración del mismo usando además rutas relativas en cada referencia de imágenes y archivos css, asi como también en los vínculos de página a página.
 En el archivo index.html de uso la etiqueta <nav> en la que consiste en agregar ahí dentro opciones de navegación dentro de esta etiqueta esta una tabla sin bordes la que contiene etiquetas <a> que contiene las opciones de navegación que se presentan en dicha página, cuenta también con una <section> con su respectivo encabezado <h#>  donde tenemos las etiquetas de manejo de textos como <strong> <cite> la cual aplica negrita y cursiva al texto contenido.
 
